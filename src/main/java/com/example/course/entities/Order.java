@@ -86,8 +86,7 @@ public class Order implements Serializable {
 	}
 	
 	public Set<OrderItem> getItems(){
-		return items;
-		
+		return items;	
 	}
 
 	@Override
@@ -106,5 +105,4 @@ public class Order implements Serializable {
 		Order other = (Order) obj;
 		return Objects.equals(id, other.id);
 	}
-
 }
